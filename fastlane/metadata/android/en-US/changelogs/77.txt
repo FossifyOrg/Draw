@@ -1,2 +1,0 @@
- * Avoid showing the Save/Discard dialog if nothing has been drawn
- * Added some UI and translation improvements
