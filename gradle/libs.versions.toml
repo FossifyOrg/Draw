@@ -3,10 +3,10 @@
 kotlin = "1.9.0"
 #AndroidX
 androidx-print = "1.0.0"
-#Simple tools
-simple-commons = "e1603ee2d6"
+#Fossify
+commons = "8d12b39e48"
 #Gradle
-gradlePlugins-agp = "8.1.1"
+gradlePlugins-agp = "8.2.0"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
@@ -15,13 +15,13 @@ app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
 app-version-appId = "com.simplemobiletools.draw.pro"
-app-version-versionCode = "82"
-app-version-versionName = "6.9.6"
+app-version-versionCode = "1"
+app-version-versionName = "1.0.0"
 [libraries]
 #AndroidX
 androidx-print = { module = "androidx.print:print", version.ref = "androidx-print" }
-#Simple Mobile Tools
-simple-tools-commons = { module = "com.github.SimpleMobileTools:Simple-Commons", version.ref = "simple-commons" }
+#Fossify
+fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
 [plugins]
 android = { id = "com.android.application", version.ref = "gradlePlugins-agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
