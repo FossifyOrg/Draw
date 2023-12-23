@@ -13,7 +13,7 @@
         app:menu="@menu/menu"
         app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
 
-    <com.simplemobiletools.commons.views.MyScrollView
+    <org.fossify.commons.views.MyScrollView
         android:id="@+id/main_scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.simplemobiletools.draw.pro.views.MyCanvas
+            <org.fossify.draw.views.MyCanvas
                 android:id="@+id/my_canvas"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -99,7 +99,7 @@
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@drawable/circle_background" />
 
-            <com.simplemobiletools.commons.views.MySeekBar
+            <org.fossify.commons.views.MySeekBar
                 android:id="@+id/stroke_width_bar"
                 android:layout_width="@dimen/stroke_bar_size"
                 android:layout_height="wrap_content"
@@ -112,5 +112,5 @@
                 android:progress="50" />
 
         </RelativeLayout>
-    </com.simplemobiletools.commons.views.MyScrollView>
+    </org.fossify.commons.views.MyScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
