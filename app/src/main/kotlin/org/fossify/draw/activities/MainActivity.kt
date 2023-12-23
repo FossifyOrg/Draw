@@ -136,10 +136,6 @@ class MainActivity : SimpleActivity(), CanvasListener {
         if (!isImageCaptureIntent) {
             checkWhatsNewDialog()
         }
-
-        if (isPackageInstalled("com.fossify.draw")) {
-            ConfirmationDialog(this, "", R.string.upgraded_from_free, R.string.ok, 0, false) {}
-        }
     }
 
     override fun onResume() {
