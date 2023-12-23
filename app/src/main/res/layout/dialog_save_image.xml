@@ -14,7 +14,7 @@
         android:paddingTop="@dimen/activity_margin"
         android:paddingRight="@dimen/activity_margin">
 
-        <com.simplemobiletools.commons.views.MyTextInputLayout
+        <org.fossify.commons.views.MyTextInputLayout
             android:id="@+id/folder_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,9 +27,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </com.simplemobiletools.commons.views.MyTextInputLayout>
+        </org.fossify.commons.views.MyTextInputLayout>
 
-        <com.simplemobiletools.commons.views.MyTextInputLayout
+        <org.fossify.commons.views.MyTextInputLayout
             android:id="@+id/save_image_filename_hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:singleLine="true"
                 android:textSize="@dimen/bigger_text_size" />
 
-        </com.simplemobiletools.commons.views.MyTextInputLayout>
+        </org.fossify.commons.views.MyTextInputLayout>
 
         <RadioGroup
             android:id="@+id/save_image_radio_group"
@@ -52,7 +52,7 @@
             android:checkedButton="@+id/save_image_radio_png"
             tools:ignore="HardcodedText">
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/save_image_radio_png"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 android:paddingBottom="@dimen/medium_margin"
                 android:text=".png" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/save_image_radio_svg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 android:paddingBottom="@dimen/medium_margin"
                 android:text=".svg" />
 
-            <com.simplemobiletools.commons.views.MyCompatRadioButton
+            <org.fossify.commons.views.MyCompatRadioButton
                 android:id="@+id/save_image_radio_jpg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
