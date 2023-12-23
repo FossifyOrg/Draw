@@ -1,5 +1,5 @@
 # Simple Draw
-<img alt="Logo" src="graphics/icon.png" width="120" />
+<img alt="Logo" src="graphics/icon.webp" width="120" />
 
 🎨 Are you looking for the best drawing app for your pocket? Do you want to draw something simple and easy, but you have no paper? You are in the right place!
 
