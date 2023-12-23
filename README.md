@@ -50,7 +50,7 @@ Drawing for kids is important, and children are effective communicators, and thr
 Our best drawing app contains no ads or unnecessary permissions. With Simple Draw, you will create quick sketches or scribble something fun using just your creativity and imagination so just start drawing a doodle or sketch, and share your love and joy for creating simple art!
 
 Check out the full suite of apps here:
-https://github.com/FossifyX
+https://github.com/FossifyOrg
 
 <div style="display:flex;">
 <img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.jpeg" width="30%">
