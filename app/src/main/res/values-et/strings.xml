@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lihtne joonistaja</string>
     <string name="app_launcher_name">Joonistaja</string>
     <string name="open_file">Ava fail</string>
     <string name="eraser">Kustutuskumm</string>

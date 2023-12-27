@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Draw</string>
     <string name="app_launcher_name">Draw</string>
     <string name="open_file">Open file</string>
     <string name="eraser">Eraser</string>

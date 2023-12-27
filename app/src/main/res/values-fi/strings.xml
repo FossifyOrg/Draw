@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Yksinkertainen piirto</string>
     <string name="app_launcher_name">Piirto</string>
     <string name="open_file">Avaa tiedosto</string>
     <string name="eraser">Pyyhekumi</string>

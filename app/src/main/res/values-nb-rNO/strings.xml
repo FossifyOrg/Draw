@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Draw</string>
     <string name="app_launcher_name">Tegneblokk</string>
     <string name="open_file">Åpne fil</string>
     <string name="eraser">Viskelær</string>

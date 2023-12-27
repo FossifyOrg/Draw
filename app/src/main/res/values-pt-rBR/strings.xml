@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Desenhos Simples</string>
     <string name="app_launcher_name">Desenho</string>
     <string name="open_file">Abrir arquivo</string>
     <string name="eraser">Borracha</string>

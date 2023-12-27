@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">نقاشی ساده</string>
     <string name="app_launcher_name">نقاشی</string>
     <string name="open_file">بازکردن پرونده</string>
     <string name="eraser">پاک‌کن</string>

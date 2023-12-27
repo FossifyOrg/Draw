@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">簡易繪圖</string>
     <string name="app_launcher_name">簡易繪圖</string>
     <string name="open_file">打開檔案</string>
     <string name="eraser">橡皮擦</string>

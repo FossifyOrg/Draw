@@ -16,7 +16,7 @@ class SaveImageDialog(
     val activity: SimpleActivity, val defaultPath: String, val defaultFilename: String, val defaultExtension: String,
     val hidePath: Boolean, callback: (fullPath: String, filename: String, extension: String) -> Unit
 ) {
-    private val SIMPLE_DRAW = "Simple Draw"
+    private val SIMPLE_DRAW = "Fossify Draw"
 
     init {
         val initialFilename = getInitialFilename()

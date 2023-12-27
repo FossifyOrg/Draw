@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Eenvoudig Tekenen</string>
     <string name="app_launcher_name">Tekenen</string>
     <string name="open_file">Bestand openen</string>
     <string name="eraser">Gum</string>
