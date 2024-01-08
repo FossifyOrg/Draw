@@ -6,13 +6,8 @@
     <string name="eyedropper">スポイト</string>
     <string name="bucket_fill">塗りつぶし</string>
     <string name="failed_to_load_image">画像 %s を読み込めませんでした</string>
-    <!-- Settings -->
     <string name="show_brush_size">ブラシサイズツールを表示する</string>
     <string name="allow_zooming_moving_canvas">ジェスチャーによるキャンバスの移動と拡大を許可する</string>
     <string name="clear">消去</string>
     <string name="change_background_color">背景色を変更する</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

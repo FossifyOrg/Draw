@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipeta</string>
     <string name="bucket_fill">Wypełnienie</string>
     <string name="failed_to_load_image">Nie udało się wczytać obrazu %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Pokazuj narzędzie wyboru rozmiaru pędzla</string>
     <string name="allow_zooming_moving_canvas">Zezwalaj na powiększanie i przesuwanie płótna gestami</string>
     <string name="clear">Wyczyść</string>
     <string name="change_background_color">Zmień kolor tła</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

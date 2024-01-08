@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipette</string>
     <string name="bucket_fill">Remplir</string>
     <string name="failed_to_load_image">Échec du chargement de l\'image %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Afficher l\'outil de sélection de la taille du pinceau</string>
     <string name="allow_zooming_moving_canvas">Permettre de zoomer et de déplacer le canevas avec des gestes</string>
     <string name="clear">Effacer</string>
     <string name="change_background_color">Changer l\'arrière-plan</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -6,13 +6,8 @@
     <string name="eyedropper">Kapalka</string>
     <string name="bucket_fill">Polnitev vedra</string>
     <string name="failed_to_load_image">Nalaganje slike %s ni uspelo</string>
-    <!-- Settings -->
     <string name="show_brush_size">Omogoči spreminjanje velikosti čopiča</string>
     <string name="allow_zooming_moving_canvas">Dovoli povečavo in premikanje platna s kretnjami</string>
     <string name="clear">Počisti</string>
     <string name="change_background_color">Spremeni barvo ozadja</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

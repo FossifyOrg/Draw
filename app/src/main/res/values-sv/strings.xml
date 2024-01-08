@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipett</string>
     <string name="bucket_fill">Färgpyts</string>
     <string name="failed_to_load_image">Det gick inte att läsa in bilden %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Visa penselstorleksverktyg</string>
     <string name="allow_zooming_moving_canvas">Tillåt zoomning och förflyttning av tavlan med hjälp av gester</string>
     <string name="clear">Rensa</string>
     <string name="change_background_color">Ändra bakgrundsfärg</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

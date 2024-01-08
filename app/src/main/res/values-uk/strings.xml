@@ -6,13 +6,8 @@
     <string name="eyedropper">Піпетка</string>
     <string name="bucket_fill">Заповнення</string>
     <string name="failed_to_load_image">Не вдалося завантажити зображення %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Показувати інструмент зміни пензля</string>
     <string name="allow_zooming_moving_canvas">Дозволити масштабування та переміщення полотна за допомогою жестів</string>
     <string name="clear">Очистити</string>
     <string name="change_background_color">Змінити колір тла</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

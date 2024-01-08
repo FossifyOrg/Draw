@@ -6,13 +6,8 @@
     <string name="eyedropper">Silmätippari</string>
     <string name="bucket_fill">Ämpärin täyttö</string>
     <string name="failed_to_load_image">Kuvan %s lataaminen epäonnistui</string>
-    <!-- Settings -->
     <string name="show_brush_size">Näytä siveltimen koon työkalu</string>
     <string name="allow_zooming_moving_canvas">Salli zoomaus ja kankaan siirtäminen eleillä</string>
     <string name="clear">Tyhjennä</string>
     <string name="change_background_color">Vaihda taustaväriä</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

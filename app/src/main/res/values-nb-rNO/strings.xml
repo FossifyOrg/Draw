@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipette</string>
     <string name="bucket_fill">Malingsspannfyll</string>
     <string name="failed_to_load_image">Kunne ikke laste inn bilde %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Vis penselstørrelsesverktøy</string>
     <string name="allow_zooming_moving_canvas">Tillat å zoome og flytte tegneflaten med fingerbevegelser</string>
     <string name="clear">Slett</string>
     <string name="change_background_color">Endre bakgrunnsfarge</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -6,13 +6,8 @@
     <string name="eyedropper">Kapátko</string>
     <string name="bucket_fill">Naplnění kbelíku</string>
     <string name="failed_to_load_image">Nepodařilo se načíst obrázek %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Zobrazit nástroj velikosti štětce</string>
     <string name="allow_zooming_moving_canvas">Povolit přibližování a posun plátna pomocí gest</string>
     <string name="clear">Vymazat</string>
     <string name="change_background_color">Změnit barvu pozadí</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -6,13 +6,8 @@
     <string name="eyedropper">القطارة</string>
     <string name="bucket_fill">دلو التعبئة</string>
     <string name="failed_to_load_image">فشل تحميل الصورة %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">إظهار أداة حجم الفرشاة</string>
     <string name="allow_zooming_moving_canvas">السماح بتكبير الصورة وتحريكها باستخدام الإيماءات</string>
     <string name="clear">مسح</string>
     <string name="change_background_color">تغيير لون الخلفية</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

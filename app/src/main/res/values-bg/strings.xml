@@ -4,15 +4,9 @@
     <string name="open_file">Отвори файл</string>
     <string name="eraser">Гумичка</string>
     <string name="eyedropper">Копиране на цвят</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">Неуспешно зареждане на изображение %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Показване на инструмент за размер на четка</string>
     <string name="allow_zooming_moving_canvas">Позволяване на мащабиране и преместване на платното с жестове</string>
     <string name="clear">Изчистване</string>
     <string name="change_background_color">Промяна на цвета на фона</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

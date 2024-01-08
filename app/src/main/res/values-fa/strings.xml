@@ -6,13 +6,8 @@
     <string name="eyedropper">قطره‌چکان</string>
     <string name="bucket_fill">سطل رنگ</string>
     <string name="failed_to_load_image">بارگذاری پروندهٔ %s ناموفق بود</string>
-    <!-- Settings -->
     <string name="show_brush_size">نمایش ابزار تغییر اندازهٔ قلم</string>
     <string name="allow_zooming_moving_canvas">فعالسازی زوم و جابه‌جایی بوم با اشاره</string>
     <string name="clear">پاک‌کردن</string>
     <string name="change_background_color">تغییر رنگ پس‌زمینه</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

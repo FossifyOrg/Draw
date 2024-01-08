@@ -6,13 +6,8 @@
     <string name="eyedropper">Kvapkadlo</string>
     <string name="bucket_fill">Farebná výplň</string>
     <string name="failed_to_load_image">Nepodarilo sa načítať súbor %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Zobraziť menič veľkosti štetca</string>
     <string name="allow_zooming_moving_canvas">Povoliť približovanie a hýbanie plátna gestami</string>
     <string name="clear">Vymazať</string>
     <string name="change_background_color">Zmeniť farbu pozadia</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

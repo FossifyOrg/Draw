@@ -3,16 +3,8 @@
     <string name="app_launcher_name">Rəsm</string>
     <string name="open_file">Fayl aç</string>
     <string name="eraser">Pozan</string>
-    <string name="eyedropper">Eyedropper</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">%s şəklini silmək olmur</string>
-    <!-- Settings -->
     <string name="show_brush_size">Fırça ölçüsü alətini göstər</string>
-    <string name="allow_zooming_moving_canvas">Allow zooming and moving the canvas with gestures</string>
     <string name="clear">Təmizlə</string>
     <string name="change_background_color">Arxaplan rəngini dəyiş</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -4,15 +4,9 @@
     <string name="open_file">פתח קובץ</string>
     <string name="eraser">מַחַק</string>
     <string name="eyedropper">מפיל עיניים</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">טעינת התמונה %s נכשלה</string>
-    <!-- Settings -->
     <string name="show_brush_size">הצג כלי גודל מברשת</string>
     <string name="allow_zooming_moving_canvas">אפשר התקרבות והזזת הקנבס באמצעות מחוות</string>
     <string name="clear">נקה</string>
     <string name="change_background_color">שנה צבע רקע</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

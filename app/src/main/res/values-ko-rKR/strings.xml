@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Draw</string>
     <string name="open_file">파일 열기</string>
     <string name="eraser">지우개</string>
-    <string name="eyedropper">Eyedropper</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">%s 이미지 파일 로딩 실패</string>
-    <!-- Settings -->
     <string name="show_brush_size">브러쉬 크기조절 도구 활성화</string>
-    <string name="allow_zooming_moving_canvas">Allow zooming and moving the canvas with gestures</string>
     <string name="clear">지우기</string>
     <string name="change_background_color">배경색 변경</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

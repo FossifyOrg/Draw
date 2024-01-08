@@ -4,15 +4,9 @@
     <string name="open_file">Malfermi dosieron</string>
     <string name="eraser">Skrapgumo</string>
     <string name="eyedropper">Gutigilo</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">Malsukcesis ŝargi la bildon %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Montri ilon por ŝanĝi grandon de peniko</string>
     <string name="allow_zooming_moving_canvas">Permesi zomi kaj movi kanvazon per gestoj</string>
     <string name="clear">Forviŝi</string>
     <string name="change_background_color">Ŝanĝi fonan koloron</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

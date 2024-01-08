@@ -6,7 +6,6 @@
     <string name="eyedropper">رنگ چڑھنا کرتا</string>
     <string name="bucket_fill">بالٹی نال بھرو</string>
     <string name="failed_to_load_image">تصویر `⁠‫⁠%s⁠‬⁠`؜ لوڈ کر نہیں سکدی</string>
-    <!-- Settings -->
     <string name="show_brush_size">برش اکار دا سَند ویکھو</string>
     <string name="allow_zooming_moving_canvas">اُلیکݨ دا کھیتر نوں وڈا کرن تے ہِلاوݨ دی اِجازت دیو</string>
     <string name="clear">ہٹاؤ</string>

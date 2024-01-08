@@ -6,13 +6,8 @@
     <string name="eyedropper">Пипетка</string>
     <string name="bucket_fill">Заливка</string>
     <string name="failed_to_load_image">Невозможно загрузить изображение %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Показать размер кисти</string>
     <string name="allow_zooming_moving_canvas">Масштабирование и перемещение холста жестами</string>
     <string name="clear">Очистить</string>
     <string name="change_background_color">Изменить цвет фона</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

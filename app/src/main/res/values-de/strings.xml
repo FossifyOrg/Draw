@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipette</string>
     <string name="bucket_fill">Füllen</string>
     <string name="failed_to_load_image">Fehler beim Laden des Bildes %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Pinselgrößenleiste</string>
     <string name="allow_zooming_moving_canvas">Vergrößern und verschieben der Leinwand durch Gesten</string>
     <string name="clear">Löschen</string>
     <string name="change_background_color">Hintergrundfarbe ändern</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

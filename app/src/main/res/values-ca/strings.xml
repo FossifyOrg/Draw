@@ -6,13 +6,8 @@
     <string name="eyedropper">Comptagotes</string>
     <string name="bucket_fill">Pot de pintura</string>
     <string name="failed_to_load_image">Ha fallat en carregar la imatge %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Mostra l\'eina de mida del pinzell</string>
     <string name="allow_zooming_moving_canvas">Permet fer zoom i moure el llenç amb gestos</string>
     <string name="clear">Neteja</string>
     <string name="change_background_color">Canvia el color del fons</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

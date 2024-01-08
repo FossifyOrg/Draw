@@ -6,13 +6,8 @@
     <string name="eyedropper">Επιλογέας χρώματος</string>
     <string name="bucket_fill">Γέμισμα Κάδου</string>
     <string name="failed_to_load_image">Αποτυχία φόρτωσης της εικόνας %s</string>
-    <!-- Settings -->
     <string name="show_brush_size">Εμφάνιση εργαλείου διαστάσεων πινέλου</string>
     <string name="allow_zooming_moving_canvas">Αποδοχή μεγέθυνσης &amp; μετακίνηση καμβά με χειρονομίες</string>
     <string name="clear">Καθαρισμός</string>
     <string name="change_background_color">Αλλαγή χρώματος παρασκηνίου</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

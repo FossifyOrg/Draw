@@ -4,15 +4,9 @@
     <string name="open_file">Bestand openen</string>
     <string name="eraser">Gum</string>
     <string name="eyedropper">Pipet</string>
-    <string name="bucket_fill">Bucket fill</string>
     <string name="failed_to_load_image">Kan bestand %s niet laden</string>
-    <!-- Settings -->
     <string name="show_brush_size">Knop penceelgrootte tonen</string>
     <string name="allow_zooming_moving_canvas">Met gebaren het canvas verplaatsen en inzoomen/uitzoomen</string>
     <string name="clear">Wissen</string>
     <string name="change_background_color">Achtergrondkleur</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

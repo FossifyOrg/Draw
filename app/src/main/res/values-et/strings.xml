@@ -6,13 +6,8 @@
     <string name="eyedropper">Pipett</string>
     <string name="bucket_fill">Ruumitäitja</string>
     <string name="failed_to_load_image">%s pildi laadimine ei õnnestunud</string>
-    <!-- Settings -->
     <string name="show_brush_size">Näita pintsli suuruse tööriista</string>
     <string name="allow_zooming_moving_canvas">Luba lõuendit liigutustega suumida ja liigutada</string>
     <string name="clear">Tühjenda</string>
     <string name="change_background_color">Vaheta taustavärvi</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>
