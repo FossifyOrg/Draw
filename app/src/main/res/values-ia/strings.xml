@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear">Rader</string>
+    <string name="change_background_color">Cambiar le color de fundo</string>
+    <string name="open_file">Aperir un file</string>
+    <string name="failed_to_load_image">Falleva le cargamento del imagine %s</string>
+</resources>
