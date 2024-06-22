@@ -6,4 +6,7 @@
     <string name="show_brush_size">브러쉬 크기조절 도구 활성화</string>
     <string name="clear">지우기</string>
     <string name="change_background_color">배경색 변경</string>
+    <string name="eyedropper">스포이드</string>
+    <string name="bucket_fill">채우기</string>
+    <string name="allow_zooming_moving_canvas">제스처로 캔버스 확대/축소 및 이동 허용</string>
 </resources>
