@@ -1,12 +1,14 @@
 [versions]
 #jetbrains
 kotlin = "1.9.0"
+#Detekt
+detekt = "1.23.3"
 #AndroidX
 androidx-print = "1.0.0"
 #Fossify
 commons = "cbf79568d3"
 #Gradle
-gradlePlugins-agp = "8.2.0"
+gradlePlugins-agp = "8.6.1"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
@@ -25,3 +27,4 @@ fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
 [plugins]
 android = { id = "com.android.application", version.ref = "gradlePlugins-agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
