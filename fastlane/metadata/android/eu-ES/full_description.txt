@@ -30,7 +30,7 @@ Ez dio axola zer adin edo gaitasun dituzun, marrazteko aplikazio onenak marrazte
 
 Zure poltsikorako marrazteko koaderno onena!
 
-Gure esku libreko marrazketa-aplikazioak zirriborro edo doodle bat marraztu, margotu eta zure baitan duzun artista arakatzeko modu digitala ematen dizu!
+Gure esku libreko marrazketa-aplikazioak zirriborro bat marraztu, margotu eta zure baitan duzun artista arakatzeko modu digitala ematen dizu!
 
 Bereziki diseinatutako marrazketa-aplikazio eta zirriborro hau zure sormenak zirriborro azkarretik artelan dibertigarrietara eramaten zaituen tokira doa. Beraz, ireki marrazketa, margotu eta besterik gabe marraztu zerbait polita! Egin zozketa azkar gure marrazketa-blokan bidaia batean edo mugimenduan zauden ala ez, gozatu marrazketa esperientziaz eta partekatu zure marrazkiak eta zirriborroak lagunekin.
  
@@ -48,7 +48,7 @@ Simple Draw-ekin, zirriborro azkarrak sortuko dituzu edo zerbait dibertigarria m
 
 Materialen diseinua eta gai iluna ditu lehenespenez, erabiltzaileen esperientzia bikaina eskaintzen du erraz erabiltzeko. Interneterako sarbide ezak beste aplikazio batzuek baino pribatutasun, segurtasun eta egonkortasun handiagoa ematen dizu.
 
-Ez dauka iragarkirik edo alferrikako baimenik. Erabat opensource da, kolore pertsonalizagarriak eskaintzen ditu.
+Ez dauka iragarkirik edo alferrikako baimenik. Erabat kode irekikoa da, kolore pertsonalizagarriak eskaintzen ditu.
 
 Ikusi hemen Tresna sinpleen multzo osoa:
 https://www.fossify.org
