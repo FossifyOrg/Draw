@@ -35,6 +35,7 @@ class SettingsActivity : SimpleActivity() {
         setupPreventPhoneFromSleeping()
         setupBrushSize()
         setupAllowZoomingCanvas()
+        setupRelativeBrushSize()
         setupForcePortraitMode()
         updateTextColors(binding.settingsHolder)
 
@@ -97,6 +98,16 @@ class SettingsActivity : SimpleActivity() {
             settingsAllowZoomingCanvasHolder.setOnClickListener {
                 settingsAllowZoomingCanvas.toggle()
                 config.allowZoomingCanvas = settingsAllowZoomingCanvas.isChecked
+            }
+        }
+    }
+
+    private fun setupRelativeBrushSize() {
+        binding.apply {
+            settingsRelativeBrushSize.isChecked = config.relativeBrushSize
+            settingsRelativeBrushSizeHolder.setOnClickListener {
+                settingsRelativeBrushSize.toggle()
+                config.relativeBrushSize = settingsRelativeBrushSize.isChecked
             }
         }
     }
