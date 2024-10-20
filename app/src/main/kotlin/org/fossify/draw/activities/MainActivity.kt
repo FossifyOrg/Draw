@@ -238,7 +238,13 @@ class MainActivity : SimpleActivity(), CanvasListener {
             faqItems.add(FAQItem(R.string.faq_10_title_commons, R.string.faq_10_text_commons))
         }
 
-        startAboutActivity(R.string.app_name, licenses, BuildConfig.VERSION_NAME, faqItems, false)
+        startAboutActivity(
+            appNameId = R.string.app_name,
+            licenseMask = licenses,
+            versionName = BuildConfig.VERSION_NAME,
+            faqItems = faqItems,
+            showFAQBeforeMail = false
+        )
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, resultData: Intent?) {
