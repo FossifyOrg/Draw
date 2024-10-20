@@ -81,5 +81,6 @@ class EyeDropper(private val view: View, private val onColorSelected: ((Int) -> 
         return isValidXCoordinate && isValidYCoordinate
     }
 
-    private fun View.shouldDrawingCacheBeEnabled(): Boolean = (this !is ImageView) && !isDrawingCacheEnabled
+    private fun View.shouldDrawingCacheBeEnabled(): Boolean =
+        (this !is ImageView) && !isDrawingCacheEnabled
 }

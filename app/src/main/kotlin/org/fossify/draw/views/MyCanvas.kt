@@ -2,7 +2,12 @@ package org.fossify.draw.views
 
 import android.app.Activity
 import android.content.Context
-import android.graphics.*
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Paint
+import android.graphics.Point
+import android.graphics.PointF
 import android.os.Parcelable
 import android.util.AttributeSet
 import android.view.MotionEvent
@@ -16,7 +21,11 @@ import com.bumptech.glide.request.RequestOptions
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.draw.R
-import org.fossify.draw.extensions.*
+import org.fossify.draw.extensions.contains
+import org.fossify.draw.extensions.removeFirst
+import org.fossify.draw.extensions.removeLast
+import org.fossify.draw.extensions.removeLastOrNull
+import org.fossify.draw.extensions.vectorFloodFill
 import org.fossify.draw.interfaces.CanvasListener
 import org.fossify.draw.models.MyPath
 import org.fossify.draw.models.PaintOptions
@@ -183,7 +192,8 @@ class MyCanvas(context: Context, attrs: AttributeSet) : View(context, attrs) {
                 if (mAllowMovingZooming) {
                     mWasMultitouch = true
                     mIgnoreMultitouchChanges = true
-                    mTouchSloppedBeforeMultitouch = mLastMotionEvent.isTouchSlop(pointerIndex, mStartX, mStartY)
+                    mTouchSloppedBeforeMultitouch =
+                        mLastMotionEvent.isTouchSlop(pointerIndex, mStartX, mStartY)
                 }
             }
 
@@ -301,17 +311,21 @@ class MyCanvas(context: Context, attrs: AttributeSet) : View(context, attrs) {
         ensureBackgroundThread {
             val size = Point()
             activity.windowManager.defaultDisplay.getSize(size)
-            val options = RequestOptions().format(DecodeFormat.PREFER_ARGB_8888).disallowHardwareConfig().fitCenter()
+            val options =
+                RequestOptions().format(DecodeFormat.PREFER_ARGB_8888).disallowHardwareConfig()
+                    .fitCenter()
 
             try {
-                val builder = Glide.with(context).asBitmap().load(path).apply(options).submit(size.x, size.y)
+                val builder =
+                    Glide.with(context).asBitmap().load(path).apply(options).submit(size.x, size.y)
 
                 mBackgroundBitmap = builder.get()
                 activity.runOnUiThread {
                     invalidate()
                 }
             } catch (e: ExecutionException) {
-                val errorMsg = String.format(activity.getString(R.string.failed_to_load_image), path)
+                val errorMsg =
+                    String.format(activity.getString(R.string.failed_to_load_image), path)
                 activity.toast(errorMsg)
             }
         }
@@ -357,7 +371,8 @@ class MyCanvas(context: Context, attrs: AttributeSet) : View(context, attrs) {
 
         updateUndoVisibility()
         mPath = MyPath()
-        mPaintOptions = PaintOptions(mPaintOptions.color, mPaintOptions.strokeWidth, mPaintOptions.isEraser)
+        mPaintOptions =
+            PaintOptions(mPaintOptions.color, mPaintOptions.strokeWidth, mPaintOptions.isEraser)
     }
 
     private fun updateUndoRedoVisibility() {
@@ -381,7 +396,12 @@ class MyCanvas(context: Context, attrs: AttributeSet) : View(context, attrs) {
             val color = mPaintOptions.color
 
             ensureBackgroundThread {
-                val path = bitmap.vectorFloodFill(color = color, x = touchedX, y = touchedY, tolerance = FLOOD_FILL_TOLERANCE)
+                val path = bitmap.vectorFloodFill(
+                    color = color,
+                    x = touchedX,
+                    y = touchedY,
+                    tolerance = FLOOD_FILL_TOLERANCE
+                )
                 val paintOpts = PaintOptions(color = color, strokeWidth = 5f)
                 addOperation(path, paintOpts)
                 post { invalidate() }

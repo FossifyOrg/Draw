@@ -17,8 +17,31 @@ import android.widget.Toast
 import androidx.print.PrintHelper
 import org.fossify.commons.dialogs.ColorPickerDialog
 import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
-import org.fossify.commons.dialogs.ConfirmationDialog
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.appLaunched
+import org.fossify.commons.extensions.applyColorFilter
+import org.fossify.commons.extensions.beGoneIf
+import org.fossify.commons.extensions.beVisibleIf
+import org.fossify.commons.extensions.checkWhatsNew
+import org.fossify.commons.extensions.getCompressionFormat
+import org.fossify.commons.extensions.getContrastColor
+import org.fossify.commons.extensions.getFileOutputStream
+import org.fossify.commons.extensions.getFilenameExtension
+import org.fossify.commons.extensions.getFilenameFromPath
+import org.fossify.commons.extensions.getParentPath
+import org.fossify.commons.extensions.getProperBackgroundColor
+import org.fossify.commons.extensions.getProperPrimaryColor
+import org.fossify.commons.extensions.hideKeyboard
+import org.fossify.commons.extensions.isBlackAndWhiteTheme
+import org.fossify.commons.extensions.isImageSlow
+import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
+import org.fossify.commons.extensions.onSeekBarChangeListener
+import org.fossify.commons.extensions.rescanPaths
+import org.fossify.commons.extensions.setFillWithStroke
+import org.fossify.commons.extensions.sharePathIntent
+import org.fossify.commons.extensions.showErrorToast
+import org.fossify.commons.extensions.toast
+import org.fossify.commons.extensions.updateTextColors
+import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.LICENSE_GLIDE
 import org.fossify.commons.helpers.PERMISSION_WRITE_STORAGE
 import org.fossify.commons.helpers.SAVE_DISCARD_PROMPT_INTERVAL
@@ -157,7 +180,11 @@ class MainActivity : SimpleActivity(), CanvasListener {
             window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         }
 
-        requestedOrientation = if (config.forcePortraitMode) ActivityInfo.SCREEN_ORIENTATION_PORTRAIT else ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+        requestedOrientation = when {
+            config.forcePortraitMode -> ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+            else -> ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+        }
+
         refreshMenuItems()
         updateButtonStates()
     }
@@ -182,7 +209,8 @@ class MainActivity : SimpleActivity(), CanvasListener {
             findItem(R.id.menu_save).isVisible = !isImageCaptureIntent && !isEditIntent
             findItem(R.id.menu_share).isVisible = !isImageCaptureIntent && !isEditIntent
             findItem(R.id.open_file).isVisible = !isEditIntent
-            findItem(R.id.more_apps_from_us).isVisible = !resources.getBoolean(R.bool.hide_google_relations)
+            findItem(R.id.more_apps_from_us).isVisible =
+                !resources.getBoolean(R.bool.hide_google_relations)
         }
     }
 
@@ -209,7 +237,13 @@ class MainActivity : SimpleActivity(), CanvasListener {
         val hasUnsavedChanges = savedPathsHash != binding.myCanvas.getDrawingHashCode()
         if (hasUnsavedChanges && System.currentTimeMillis() - lastSavePromptTS > SAVE_DISCARD_PROMPT_INTERVAL) {
             lastSavePromptTS = System.currentTimeMillis()
-            ConfirmationAdvancedDialog(this, "", R.string.save_before_closing, R.string.save, R.string.discard) {
+            ConfirmationAdvancedDialog(
+                activity = this,
+                message = "",
+                messageId = R.string.save_before_closing,
+                positive = R.string.save,
+                negative = R.string.discard
+            ) {
                 if (it) {
                     trySaveImage()
                 } else {
@@ -360,7 +394,8 @@ class MainActivity : SimpleActivity(), CanvasListener {
 
     private fun openUri(uri: Uri, intent: Intent): Boolean {
         val mime = MimeTypeMap.getSingleton()
-        val type = mime.getExtensionFromMimeType(contentResolver.getType(uri)) ?: intent.type ?: contentResolver.getType(uri)
+        val type = mime.getExtensionFromMimeType(contentResolver.getType(uri))
+            ?: intent.type ?: contentResolver.getType(uri)
         return when (type) {
             "svg", "image/svg+xml" -> {
                 binding.myCanvas.mBackgroundBitmap = null
@@ -495,7 +530,11 @@ class MainActivity : SimpleActivity(), CanvasListener {
         }
     }
 
-    private fun saveToOutputStream(outputStream: OutputStream?, format: Bitmap.CompressFormat, finishAfterSaving: Boolean) {
+    private fun saveToOutputStream(
+        outputStream: OutputStream?,
+        format: Bitmap.CompressFormat,
+        finishAfterSaving: Boolean
+    ) {
         if (outputStream == null) {
             toast(R.string.unknown_error_occurred)
             return
@@ -519,7 +558,13 @@ class MainActivity : SimpleActivity(), CanvasListener {
 
     private fun trySaveImage() {
         if (isQPlus()) {
-            SaveImageDialog(this, defaultPath, defaultFilename, defaultExtension, true) { fullPath, filename, extension ->
+            SaveImageDialog(
+                activity = this,
+                defaultPath = defaultPath,
+                defaultFilename = defaultFilename,
+                defaultExtension = defaultExtension,
+                hidePath = true
+            ) { fullPath, filename, extension ->
                 val mimetype = if (extension == SVG) "svg+xml" else extension
 
                 defaultFilename = filename
@@ -548,7 +593,13 @@ class MainActivity : SimpleActivity(), CanvasListener {
     }
 
     private fun saveImage() {
-        SaveImageDialog(this, defaultPath, defaultFilename, defaultExtension, false) { fullPath, filename, extension ->
+        SaveImageDialog(
+            activity = this,
+            defaultPath = defaultPath,
+            defaultFilename = defaultFilename,
+            defaultExtension = defaultExtension,
+            hidePath = false
+        ) { fullPath, filename, extension ->
             savedPathsHash = binding.myCanvas.getDrawingHashCode()
             saveFile(fullPath)
             defaultPath = fullPath.getParentPath()
@@ -677,7 +728,8 @@ class MainActivity : SimpleActivity(), CanvasListener {
 
     private fun getBrushPreviewView() = binding.strokeWidthPreview.background as GradientDrawable
 
-    private fun getBrushStrokeSize() = resources.getDimension(R.dimen.preview_dot_stroke_size).toInt()
+    private fun getBrushStrokeSize() =
+        resources.getDimension(R.dimen.preview_dot_stroke_size).toInt()
 
     override fun toggleUndoVisibility(visible: Boolean) {
         binding.undo.beVisibleIf(visible)

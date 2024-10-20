@@ -3,7 +3,17 @@ package org.fossify.draw.dialogs
 import androidx.appcompat.app.AlertDialog
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.FilePickerDialog
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.beGone
+import org.fossify.commons.extensions.getAlertDialogBuilder
+import org.fossify.commons.extensions.getCurrentFormattedDateTime
+import org.fossify.commons.extensions.getFilenameFromPath
+import org.fossify.commons.extensions.humanizePath
+import org.fossify.commons.extensions.internalStoragePath
+import org.fossify.commons.extensions.isAValidFilename
+import org.fossify.commons.extensions.setupDialogStuff
+import org.fossify.commons.extensions.showKeyboard
+import org.fossify.commons.extensions.toast
+import org.fossify.commons.extensions.value
 import org.fossify.draw.R
 import org.fossify.draw.activities.SimpleActivity
 import org.fossify.draw.databinding.DialogSaveImageBinding
@@ -13,14 +23,22 @@ import org.fossify.draw.helpers.SVG
 import java.io.File
 
 class SaveImageDialog(
-    val activity: SimpleActivity, val defaultPath: String, val defaultFilename: String, val defaultExtension: String,
-    val hidePath: Boolean, callback: (fullPath: String, filename: String, extension: String) -> Unit
+    val activity: SimpleActivity,
+    val defaultPath: String,
+    val defaultFilename: String,
+    val defaultExtension: String,
+    val hidePath: Boolean,
+    callback: (fullPath: String, filename: String, extension: String) -> Unit
 ) {
     private val SIMPLE_DRAW = "Fossify Draw"
 
     init {
         val initialFilename = getInitialFilename()
-        var folder = if (defaultPath.isEmpty()) "${activity.internalStoragePath}/$SIMPLE_DRAW" else defaultPath
+        var folder = when {
+            defaultPath.isEmpty() -> "${activity.internalStoragePath}/$SIMPLE_DRAW"
+            else -> defaultPath
+        }
+
         val binding = DialogSaveImageBinding.inflate(activity.layoutInflater).apply {
             saveImageFilename.setText(initialFilename)
             saveImageRadioGroup.check(
@@ -70,7 +88,10 @@ class SaveImageDialog(
                         }
 
                         if (!hidePath && File(newPath).exists()) {
-                            val title = String.format(activity.getString(R.string.file_already_exists_overwrite), newPath.getFilenameFromPath())
+                            val title = String.format(
+                                activity.getString(R.string.file_already_exists_overwrite),
+                                newPath.getFilenameFromPath()
+                            )
                             ConfirmationDialog(activity, title) {
                                 callback(newPath, filename, extension)
                                 alertDialog.dismiss()

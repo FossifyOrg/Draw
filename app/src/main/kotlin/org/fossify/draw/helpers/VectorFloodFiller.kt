@@ -77,7 +77,10 @@ class VectorFloodFiller(image: Bitmap) {
 
                 // Start Fill Downwards
                 // if we're not below the bottom of the bitmap and the pixel below this one is within the color tolerance
-                if (range.Y < height - 1 && !pixelsChecked[downPxIdx] && isPixelColorWithinTolerance(downPxIdx)) {
+                if (
+                    range.Y < height - 1 && !pixelsChecked[downPxIdx]
+                    && isPixelColorWithinTolerance(downPxIdx)
+                ) {
                     linearFill(i, downY)
                 }
                 downPxIdx++

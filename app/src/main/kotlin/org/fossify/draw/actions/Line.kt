@@ -14,7 +14,10 @@ class Line : Action {
             throw InvalidParameterException("The Line data should start with 'L'.")
 
         try {
-            val xy = data.substring(1).split(",".toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
+            val xy = data.substring(1)
+                .split(",".toRegex())
+                .dropLastWhile(String::isEmpty)
+                .toTypedArray()
             x = xy[0].trim().toFloat()
             y = xy[1].trim().toFloat()
         } catch (ignored: Exception) {

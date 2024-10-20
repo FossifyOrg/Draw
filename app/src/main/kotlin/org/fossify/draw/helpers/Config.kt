@@ -24,7 +24,8 @@ class Config(context: Context) : BaseConfig(context) {
 
     var canvasBackgroundColor: Int
         get() = prefs.getInt(CANVAS_BACKGROUND_COLOR, Color.WHITE)
-        set(canvasBackgroundColor) = prefs.edit().putInt(CANVAS_BACKGROUND_COLOR, canvasBackgroundColor).apply()
+        set(canvasBackgroundColor) = prefs.edit()
+            .putInt(CANVAS_BACKGROUND_COLOR, canvasBackgroundColor).apply()
 
     var lastSaveFolder: String
         get() = prefs.getString(LAST_SAVE_FOLDER, "")!!
@@ -32,13 +33,16 @@ class Config(context: Context) : BaseConfig(context) {
 
     var lastSaveExtension: String
         get() = prefs.getString(LAST_SAVE_EXTENSION, "")!!
-        set(lastSaveExtension) = prefs.edit().putString(LAST_SAVE_EXTENSION, lastSaveExtension).apply()
+        set(lastSaveExtension) = prefs.edit().putString(LAST_SAVE_EXTENSION, lastSaveExtension)
+            .apply()
 
     var allowZoomingCanvas: Boolean
         get() = prefs.getBoolean(ALLOW_ZOOMING_CANVAS, true)
-        set(allowZoomingCanvas) = prefs.edit().putBoolean(ALLOW_ZOOMING_CANVAS, allowZoomingCanvas).apply()
+        set(allowZoomingCanvas) = prefs.edit().putBoolean(ALLOW_ZOOMING_CANVAS, allowZoomingCanvas)
+            .apply()
 
     var forcePortraitMode: Boolean
         get() = prefs.getBoolean(FORCE_PORTRAIT_MODE, false)
-        set(forcePortraitMode) = prefs.edit().putBoolean(FORCE_PORTRAIT_MODE, forcePortraitMode).apply()
+        set(forcePortraitMode) = prefs.edit().putBoolean(FORCE_PORTRAIT_MODE, forcePortraitMode)
+            .apply()
 }

@@ -13,7 +13,14 @@ import org.fossify.draw.R
 import org.fossify.draw.activities.MainActivity
 import org.fossify.draw.activities.SimpleActivity
 import org.fossify.draw.views.MyCanvas
-import java.io.*
+import java.io.BufferedWriter
+import java.io.File
+import java.io.FileInputStream
+import java.io.InputStream
+import java.io.OutputStream
+import java.io.OutputStreamWriter
+import java.io.Serializable
+import java.io.Writer
 
 object Svg {
     fun saveSvg(activity: SimpleActivity, path: String, canvas: MyCanvas) {
@@ -22,7 +29,11 @@ object Svg {
         }
     }
 
-    fun saveToOutputStream(activity: SimpleActivity, outputStream: OutputStream?, canvas: MyCanvas) {
+    fun saveToOutputStream(
+        activity: SimpleActivity,
+        outputStream: OutputStream?,
+        canvas: MyCanvas
+    ) {
         if (outputStream != null) {
             val backgroundColor = (canvas.background as ColorDrawable).color
             val writer = BufferedWriter(OutputStreamWriter(outputStream))
@@ -34,10 +45,22 @@ object Svg {
         }
     }
 
-    private fun writeSvg(writer: Writer, backgroundColor: Int, paths: Map<MyPath, PaintOptions>, width: Int, height: Int) {
+    private fun writeSvg(
+        writer: Writer,
+        backgroundColor: Int,
+        paths: Map<MyPath, PaintOptions>,
+        width: Int,
+        height: Int
+    ) {
         writer.apply {
             write("<svg width=\"$width\" height=\"$height\" xmlns=\"http://www.w3.org/2000/svg\">")
-            write("<rect width=\"$width\" height=\"$height\" fill=\"#${Integer.toHexString(backgroundColor).substring(2)}\"/>")
+            write(
+                "<rect width=\"$width\" height=\"$height\" fill=\"#${
+                    Integer.toHexString(
+                        backgroundColor
+                    ).substring(2)
+                }\"/>"
+            )
 
             for ((key, value) in paths) {
                 writePath(this, key, value)
@@ -139,5 +162,10 @@ object Svg {
 
     private class SRect(val width: Int, val height: Int, val color: Int) : Serializable
 
-    private class SPath(var data: String, var color: Int, var strokeWidth: Float, var isEraser: Boolean) : Serializable
+    private class SPath(
+        var data: String,
+        var color: Int,
+        var strokeWidth: Float,
+        var isEraser: Boolean
+    ) : Serializable
 }

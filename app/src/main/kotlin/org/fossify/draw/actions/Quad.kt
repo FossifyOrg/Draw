@@ -17,7 +17,10 @@ class Quad : Action {
 
         try {
             val parts = data.split("\\s+".toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
-            val xy1 = parts[0].substring(1).split(",".toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
+            val xy1 = parts[0].substring(1)
+                .split(",".toRegex())
+                .dropLastWhile(String::isEmpty)
+                .toTypedArray()
             val xy2 = parts[1].split(",".toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
 
             x1 = xy1[0].trim().toFloat()

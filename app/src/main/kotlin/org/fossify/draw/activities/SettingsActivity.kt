@@ -20,7 +20,12 @@ class SettingsActivity : SimpleActivity() {
         setContentView(binding.root)
 
         binding.apply {
-            updateMaterialActivityViews(settingsCoordinator, settingsHolder, useTransparentNavigation = true, useTopSearchMenu = false)
+            updateMaterialActivityViews(
+                settingsCoordinator,
+                settingsHolder,
+                useTransparentNavigation = true,
+                useTopSearchMenu = false
+            )
             setupMaterialScrollListener(settingsNestedScrollview, settingsToolbar)
         }
     }
@@ -38,7 +43,10 @@ class SettingsActivity : SimpleActivity() {
         setupForcePortraitMode()
         updateTextColors(binding.settingsHolder)
 
-        arrayOf(binding.settingsColorCustomizationSectionLabel, binding.settingsGeneralSettingsLabel).forEach {
+        arrayOf(
+            binding.settingsColorCustomizationSectionLabel,
+            binding.settingsGeneralSettingsLabel
+        ).forEach {
             it.setTextColor(getProperPrimaryColor())
         }
     }
