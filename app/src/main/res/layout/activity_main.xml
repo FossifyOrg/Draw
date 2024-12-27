@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.fossify.draw.views.MyCanvas
+            <org.fossify.paint.views.MyCanvas
                 android:id="@+id/my_canvas"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

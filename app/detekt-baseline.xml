@@ -62,7 +62,7 @@
     <ID>VariableNaming:SaveImageDialog.kt$SaveImageDialog$private val SIMPLE_DRAW = "Fossify Draw"</ID>
     <ID>WildcardImport:MainActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:MyCanvas.kt$import android.graphics.*</ID>
-    <ID>WildcardImport:MyCanvas.kt$import org.fossify.draw.extensions.*</ID>
+    <ID>WildcardImport:MyCanvas.kt$import org.fossify.paint.extensions.*</ID>
     <ID>WildcardImport:SaveImageDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:Svg.kt$import java.io.*</ID>
   </CurrentIssues>

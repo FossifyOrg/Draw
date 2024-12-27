@@ -23,7 +23,7 @@ android {
         targetSdk = project.libs.versions.app.build.targetSDK.get().toInt()
         versionName = project.libs.versions.app.version.versionName.get()
         versionCode = project.libs.versions.app.version.versionCode.get().toInt()
-        setProperty("archivesBaseName", "draw-$versionCode")
+        setProperty("archivesBaseName", "paint-$versionCode")
         vectorDrawables.useSupportLibrary = true
     }
 
