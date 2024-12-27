@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ## Hi there 👋
-        Thanks for helping us improve Fossify Draw by reporting a bug!
+        Thanks for helping us improve Fossify Paint by reporting a bug!
         Please fill in as much information as possible about your bug to avoid unnecessary and time-consuming back-and-forth communication.
 
   - type: checkboxes
@@ -14,11 +14,11 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I can reproduce the bug with the latest version given [here](https://github.com/FossifyOrg/Draw/releases/latest)."
+        - label: "I can reproduce the bug with the latest version given [here](https://github.com/FossifyOrg/Paint/releases/latest)."
           required: true
-        - label: "I made sure that there are **no existing issues** - [open](https://github.com/FossifyOrg/Draw/issues) or [closed](https://github.com/FossifyOrg/Draw/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
+        - label: "I made sure that there are **no existing issues** - [open](https://github.com/FossifyOrg/Paint/issues) or [closed](https://github.com/FossifyOrg/Paint/issues?q=is%3Aissue+is%3Aclosed) - to which I could contribute my information."
           required: true
-        - label: "I made sure that there are **no existing discussions** - [open](https://github.com/FossifyOrg/Draw/discussions) or [closed](https://github.com/FossifyOrg/Draw/discussions?discussions_q=is%3Aclosed) - to which I could contribute my information."
+        - label: "I made sure that there are **no existing discussions** - [open](https://github.com/FossifyOrg/Paint/discussions) or [closed](https://github.com/FossifyOrg/Paint/discussions?discussions_q=is%3Aclosed) - to which I could contribute my information."
           required: true
         - label: "I have read the FAQs inside the app (Menu -> About -> FAQs) and my problem isn't listed."
           required: true
@@ -26,7 +26,7 @@ body:
           required: true
         - label: "This issue contains only one bug."
           required: true
-        - label: "I have read and understood the [contribution guidelines](https://github.com/FossifyOrg/Draw/blob/master/CONTRIBUTING.md)."
+        - label: "I have read and understood the [contribution guidelines](https://github.com/FossifyOrg/Paint/blob/master/CONTRIBUTING.md)."
           required: true
 
   - type: input

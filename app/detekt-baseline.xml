@@ -59,7 +59,7 @@
     <ID>VariableNaming:MyCanvas.kt$MyCanvas$private val FLOOD_FILL_TOLERANCE = 1</ID>
     <ID>VariableNaming:MyCanvas.kt$MyCanvas$private val MAX_HISTORY_COUNT = 1000</ID>
     <ID>VariableNaming:MyCanvas.kt$MyCanvas$private val MIN_ERASER_WIDTH = 20f</ID>
-    <ID>VariableNaming:SaveImageDialog.kt$SaveImageDialog$private val SIMPLE_DRAW = "Fossify Draw"</ID>
+    <ID>VariableNaming:SaveImageDialog.kt$SaveImageDialog$private val SIMPLE_DRAW = "Fossify Paint"</ID>
     <ID>WildcardImport:MainActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:MyCanvas.kt$import android.graphics.*</ID>
     <ID>WildcardImport:MyCanvas.kt$import org.fossify.paint.extensions.*</ID>

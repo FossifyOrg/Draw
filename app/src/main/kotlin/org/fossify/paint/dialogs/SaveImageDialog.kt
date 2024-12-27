@@ -30,7 +30,7 @@ class SaveImageDialog(
     val hidePath: Boolean,
     callback: (fullPath: String, filename: String, extension: String) -> Unit
 ) {
-    private val SIMPLE_DRAW = "Fossify Draw"
+    private val SIMPLE_DRAW = "Fossify Paint"
 
     init {
         val initialFilename = getInitialFilename()

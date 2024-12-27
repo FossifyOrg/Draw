@@ -7,7 +7,7 @@
         errorLine1="                launchChangeAppLanguageIntent()"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/draw/activities/SettingsActivity.kt"
+            file="src/main/kotlin/org/fossify/paint/activities/SettingsActivity.kt"
             line="69"
             column="17"/>
     </issue>
@@ -69,7 +69,7 @@
         errorLine1="class SplashActivity : BaseSplashActivity() {"
         errorLine2="      ~~~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/draw/activities/SplashActivity.kt"
+            file="src/main/kotlin/org/fossify/paint/activities/SplashActivity.kt"
             line="6"
             column="7"/>
     </issue>
@@ -80,7 +80,7 @@
         errorLine1="kotlin = &quot;1.9.0&quot;"
         errorLine2="         ~~~~~~~">
         <location
-            file="$HOME/Projects/Community/FossifyOrg/Draw/gradle/libs.versions.toml"
+            file="$HOME/Projects/Community/FossifyOrg/Paint/gradle/libs.versions.toml"
             line="3"
             column="10"/>
     </issue>
@@ -91,7 +91,7 @@
         errorLine1="kotlin = &quot;1.9.0&quot;"
         errorLine2="         ~~~~~~~">
         <location
-            file="$HOME/Projects/Community/FossifyOrg/Draw/gradle/libs.versions.toml"
+            file="$HOME/Projects/Community/FossifyOrg/Paint/gradle/libs.versions.toml"
             line="3"
             column="10"/>
     </issue>
@@ -102,7 +102,7 @@
         errorLine1="kotlin = &quot;1.9.0&quot;"
         errorLine2="         ~~~~~~~">
         <location
-            file="$HOME/Projects/Community/FossifyOrg/Draw/gradle/libs.versions.toml"
+            file="$HOME/Projects/Community/FossifyOrg/Paint/gradle/libs.versions.toml"
             line="3"
             column="10"/>
     </issue>
@@ -110,7 +110,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;app_launcher_name&quot; is not translated in &quot;hi&quot; (Hindi), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;ckb&quot;"
-        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Draw_debug&lt;/string>"
+        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Paint_debug&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/debug/res/values/strings.xml"
@@ -121,7 +121,7 @@
     <issue
         id="MissingTranslation"
         message="&quot;app_launcher_name&quot; is not translated in &quot;hi&quot; (Hindi), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;ckb&quot;"
-        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Draw&lt;/string>"
+        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>Paint&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values/strings.xml"
@@ -268,7 +268,7 @@
         errorLine1="    private var viewTouchListener = View.OnTouchListener { _, event ->"
         errorLine2="                                                         ^">
         <location
-            file="src/main/kotlin/org/fossify/draw/helpers/EyeDropper.kt"
+            file="src/main/kotlin/org/fossify/paint/helpers/EyeDropper.kt"
             line="18"
             column="58"/>
     </issue>
@@ -279,7 +279,7 @@
         errorLine1="    override fun onTouchEvent(event: MotionEvent): Boolean {"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="src/main/kotlin/org/fossify/draw/views/MyCanvas.kt"
+            file="src/main/kotlin/org/fossify/paint/views/MyCanvas.kt"
             line="101"
             column="18"/>
     </issue>

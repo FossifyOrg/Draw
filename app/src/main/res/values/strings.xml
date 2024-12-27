@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Draw</string>
+    <string name="app_launcher_name">Paint</string>
     <string name="open_file">Open file</string>
     <string name="eraser">Eraser</string>
     <string name="eyedropper">Eyedropper</string>
