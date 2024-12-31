@@ -1,0 +1,16 @@
+Fossify Paint to Twoja aplikacja do łatwego szkicowania i wyrażania siebie. Niezależnie od tego, czy chcesz narysować coś zabawnego, czy stworzyć szczegółowy digital art, Fossify Paint został stworzony, aby dać Ci pełną kontrolę, jednocześnie szanując Twoją prywatność.<br><br>
+<b>✏️ SZYBKIE I ŁATWE SZKICOWANIE:</b><br>
+Rozpocznij rysowanie natychmiast — bez skomplikowanej konfiguracji ani potrzeby zaawansowanych narzędzi. Po prostu wybierz rozmiar pędzla, kolor i wciel swoje pomysły w życie na czystym cyfrowym płótnie.<br><br>
+<b>🎨 W PEŁNI KONFIGUROWALNA PRZESTRZEŃ ARTYSTYCZNA:</b><br>
+Dostosuj każdy aspekt swojego doświadczenia rysowania. Zmień tło płótna, dostosuj rozmiar pędzla i precyzyjnie dopasuj kolory za pomocą kodów szesnastkowych.<br><br>
+<b>🖼️ WSZECHSTRONNE FORMATY PLIKÓW:</b><br>
+Fossify Paint obsługuje popularne formaty, takie jak PNG, JPG i SVG. Niezależnie od tego, czy zapisujesz prosty szkic, czy udostępniasz szczegółowe dzieło sztuki, możesz łatwo wyeksportować swoje dzieła w formacie odpowiadającym Twoim potrzebom.<br><br>
+<b>🛡️ WBUDOWANA PRYWATNOŚĆ I BEZPIECZEŃSTWO:</b><br>
+Podobnie jak wszystkie aplikacje Fossify, Fossify Paint działa całkowicie offline bez żadnych natrętnych uprawnień. Twoje dzieło sztuki pozostaje bezpieczne na Twoim urządzeniu, zapewniając spokój ducha.<br><br>
+<b>🌐 GWARANCJA OTWARTEGO ŹRÓDŁA:</b><br>
+Fossify Paint jest otwartoźródłowy i przejrzysty. Przeglądaj kod na GitHubie, dołącz do projektu i bądź częścią społeczności, która ceni sobie prywatność i kreatywność.<br><br>
+Fossify Paint jest przeznaczony dla artystów w każdym wieku i na każdym poziomie umiejętności — twórz, dostosowuj i udostępniaj swoją sztukę, jednocześnie zachowując swoją prywatność.<br><br>
+Odkryj więcej aplikacji od Fossify: https://www.fossify.org<br>
+Kod źródłowy: https://www.github.com/FossifyOrg<br>
+Dołącz do społeczności na Reddicie: https://www.reddit.com/r/Fossify<br>
+Połącz się na Telegramie: https://t.me/Fossify<br>
