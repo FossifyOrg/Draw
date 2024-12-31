@@ -1,59 +1,41 @@
-# Fossify Draw
+# Fossify Paint
+
 <img alt="Logo" src="graphics/icon.webp" width="120" />
+Fossify Paint is your go-to app for effortless sketching and creative expression. Whether you want
+to doodle something fun or craft detailed digital art, Fossify Paint is built to give you complete
+control while respecting your privacy.
 
-🎨 Are you looking for the best drawing app for your pocket? Do you want to draw something simple and easy, but you have no paper? You are in the right place!
+**✏️ QUICK & EASY SKETCHING:**  
+Start drawing immediately—no complicated setup or advanced tools needed. Just choose your brush
+size, pick your color, and bring your ideas to life on a clean digital canvas.
 
-Enjoy the moment with our specially designed drawing app, draw something fun and create your own artwork– all in a digital form!
+**🎨 FULLY CUSTOMIZABLE ART SPACE:**  
+Customize every aspect of your drawing experience. Change the canvas background, adjust brush size,
+and fine-tune colors with precision using hex codes.
 
-Simple Draw is the best drawing app for anyone who loves to draw. Just pick paint and draw!
+**🖼️ VERSATILE FILE FORMATS:**  
+Fossify Paint supports popular formats like PNG, JPG, and SVG. Whether you’re saving a simple sketch
+or sharing detailed artwork, you can easily export your creations in the format that suits your
+needs.
 
-Paint and draw simple sketches for fun
+**🛡️ PRIVACY & SECURITY BUILT-IN:**  
+As with all Fossify apps, Fossify Paint works completely offline with no intrusive permissions. Your
+artwork stays secure on your device, ensuring peace of mind.
 
-With Simple Draw, you will not be needed any fancy or advanced tools or filters for your favourite doodle or sketch. Just use your creativity and freehand drawing to create the best sketches for your sketchbook. 
+**🌐 OPEN-SOURCE COMMITMENT:**  
+Fossify Paint is open-source and transparent. Explore the code on GitHub, contribute to the project,
+and be part of a community that values privacy and creativity.
 
-Try why we are the best drawing app where anyone can scribble something simple with fun!  
+Fossify Paint caters to artists of all ages and skill levels—create, customize, and share your
+art, all while keeping your privacy intact.
 
-Simple Draw features 
+➡️ Explore more Fossify apps: https://www.fossify.org<br>
+➡️ Open-Source Code: https://www.github.com/FossifyOrg<br>
+➡️ Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
+➡️ Connect on Telegram: https://t.me/Fossify
 
-This popular sketchbook for quick sketch and painting provides many useful functions:
-
-✔️	Draw something colourful, simple sketch or doodle using a different paint and pen size  
-✔️	Changing the background colour, or using an image from your sketchbook as the background  
-✔️	Use an eraser if you took the wrong paint  
-✔️	Insert paint either by selecting it on a palette, or by entering the colours hex code  
-✔️	This simple sketchbook supports many different formats like PNG, JPG, or SVG vectors  
-✔️	Share your paintings, draws & sketches with friends through email or social networks  
-✔️	Simple Draw App works offline & online!
-
-Use nothing else but your device and creativity to make some doodles and sketches!
-
-Create your own sketchbook! 
-
-No matter what age or abilities you have, the best drawing app offers a fun drawing experience! Draw a sketch, use your favourite paint and save your artwork in your own sketchbook. With Simple Draw, you can either draw new sketches from scratch or open some old artwork file from your sketchbook and just play around with new paints and colour.
-
-Best drawing pad for your pocket! 
-
-Our freehand drawing app allows you a digital way to draw a sketch or doodle, paint and explore the artist in you!
-
-This specially designed drawing app and sketchbook go where your creativity takes you from quick sketch to funny artwork. So, open the drawing pad, paint and simply draw something nice! Have a quick draw on our drawing pad whether you are on a journey or in a move, enjoy the drawing experience, and share your draws and sketches with your friends.
- 
-Fun at home – learn sketching 
-
-Our most popular drawing app is perfectly usable either for kids and beginners or for a family with children to play some drawing games and to learn sketching. After all, everyone has a piece of the artist in himself. 
-
-Download our drawing app, draw your favourite art and share it on the social network with your friends.
-
-Drawing for kids! 
-
-Drawing for kids is important, and children are effective communicators, and through drawings, children learn to express their feelings and ideas freely. With our digital drawing pad, they can draw cars, flowers, dogs, cats, and other paintings and save them into the Gallery! 
-
-Our best drawing app contains no ads or unnecessary permissions. With Simple Draw, you will create quick sketches or scribble something fun using just your creativity and imagination so just start drawing a doodle or sketch, and share your love and joy for creating simple art!
-
-Check out the full suite of apps here:
-https://github.com/FossifyOrg
-
-<div style="display:flex;">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.jpeg" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.jpeg" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.jpeg" width="30%">
+<div align="center">
+<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="30%">
+<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="30%">
+<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="30%">
 </div>
