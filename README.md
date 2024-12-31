@@ -1,6 +1,7 @@
 # Fossify Paint
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
+
 Fossify Paint is your go-to app for effortless sketching and creative expression. Whether you want
 to doodle something fun or craft detailed digital art, Fossify Paint is built to give you complete
 control while respecting your privacy.
