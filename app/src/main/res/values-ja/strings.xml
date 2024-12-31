@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">ドロー</string>
     <string name="open_file">ファイルを開く</string>
     <string name="eraser">消しゴム</string>
     <string name="eyedropper">スポイト</string>

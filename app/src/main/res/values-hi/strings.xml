@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="change_background_color">पृष्ठभूमि का रंग बदलें</string>
-    <string name="app_launcher_name">ड्रा</string>
     <string name="open_file">फाइल खोलें</string>
     <string name="eraser">इरेज़र</string>
     <string name="eyedropper">आईड्रॉपर</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Dessin</string>
     <string name="open_file">Ouvrir un fichier</string>
     <string name="eraser">Gommer</string>
     <string name="eyedropper">Pipette</string>

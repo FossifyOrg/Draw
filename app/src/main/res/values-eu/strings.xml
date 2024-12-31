@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="allow_zooming_moving_canvas">Baimendu oihala keinuekin zooma egitea eta mugitzea</string>
-    <string name="app_launcher_name">Marrazkia</string>
     <string name="open_file">Ireki fitxategia</string>
     <string name="eraser">Borragoma</string>
     <string name="eyedropper">Kolore hautatzailea</string>

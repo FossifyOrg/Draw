@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Малюнкі</string>
     <string name="open_file">Адкрыць файл</string>
     <string name="eraser">Гумка</string>
     <string name="eyedropper">Піпетка</string>

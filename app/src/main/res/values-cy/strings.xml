@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Llunio</string>
     <string name="open_file">Agor ffeil</string>
     <string name="eraser">Rwbiwr</string>
     <string name="failed_to_load_image">Methwyd â llwytho\'r ddelwedd %s</string>

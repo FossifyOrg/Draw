@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Gumuhit</string>
     <string name="open_file">Magbukas ng file</string>
     <string name="eraser">Pambura</string>
     <string name="bucket_fill">Punan ng pintura</string>

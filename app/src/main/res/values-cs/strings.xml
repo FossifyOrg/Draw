@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Kreslení</string>
     <string name="open_file">Otevřít soubor</string>
     <string name="eraser">Guma</string>
     <string name="eyedropper">Kapátko</string>
