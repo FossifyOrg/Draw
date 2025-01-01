@@ -2,6 +2,8 @@
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
+<a href="https://apt.izzysoft.de/fdroid/index/apk/org.fossify.paint"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a>
+
 Fossify Paint is your go-to app for effortless sketching and creative expression. Whether you want
 to doodle something fun or craft detailed digital art, Fossify Paint is built to give you complete
 control while respecting your privacy.
