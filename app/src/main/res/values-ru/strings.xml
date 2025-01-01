@@ -9,4 +9,5 @@
     <string name="allow_zooming_moving_canvas">Масштабирование и перемещение холста жестами</string>
     <string name="clear">Очистить</string>
     <string name="change_background_color">Изменить цвет фона</string>
+    <string name="app_launcher_name">Рисование</string>
 </resources>
