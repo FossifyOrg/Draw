@@ -1,0 +1,16 @@
+Malování Fossify je vaše ideální aplikace pro snadné skicování a kreativní vyjádření. Ať už si chcete jen něco rychle načrtnout, nebo vytvářet detailní digitální umění, Malování Fossify vám nabízí plnou kontrolu a zároveň dbá na vaše soukromí.<br><br>
+<b>✏️ RYCHLÉ A JEDNODUCHÉ SKICOVÁNÍ:</b><br>
+Začněte kreslit okamžitě – není potřeba žádné složité nastavení nebo pokročilé nástroje. Stačí si vybrat velikost štětce, zvolit barvu a přenést své nápady na čisté digitální plátno.<br><br>
+<b>🎨 PLNĚ PŘIZPŮSOBITELNÝ KREATIVNÍ PROSTOR:</b><br>
+Přizpůsobte si každý aspekt svého kreslení. Změňte pozadí plátna, upravte velikost štětce a dolaďte barvy s přesností pomocí hex kódů.<br><br>
+<b>🖼️ PODPORA RŮZNÝCH FORMÁTŮ:</b><br>
+Malování Fossify podporuje oblíbené formáty jako PNG, JPG a SVG. Ať už ukládáte jednoduchou skicu, nebo sdílíte detailní umění, snadno exportujete své výtvory v požadovaném formátu.<br><br>
+<b>🛡️ VESTAVĚNÉ SOUKROMÍ A ZABEZPEČENÍ:</b><br>
+Stejně jako všechny aplikace Fossify funguje i aplikace Malování Fossify zcela offline, bez rušivých oprávnění. Vaše umění zůstává bezpečně uloženo ve vašem zařízení, což vám zajistí klid.<br><br>
+<b>🌐 OPEN-SOURCE:</b><br>
+Malování Fossify je open-source a transparentní. Prozkoumejte kód na GitHubu, přispějte do projektu a staňte se součástí komunity, která si cení soukromí a kreativity.<br><br>
+Malování Fossify je určeno pro umělce všech věkových kategorií a úrovní dovedností – tvořte, přizpůsobujte a sdílejte své umění, a to vše při zachování svého soukromí.<br><br>
+Prozkoumejte další aplikace Fossify: https://www.fossify.org<br>
+Otevřený zdrojový kód: https://www.github.com/FossifyOrg<br>
+Připojte se ke komunitě na Redditu: https://www.reddit.com/r/Fossify<br>
+Připojte se k Telegramu: https://t.me/Fossify<br>
