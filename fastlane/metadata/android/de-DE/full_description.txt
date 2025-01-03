@@ -1,0 +1,16 @@
+Fossify Paint ist die ideale App für müheloses Skizzieren und kreativen Ausdruck. Egal, ob du etwas Lustiges kritzeln oder detaillierte digitale Kunstwerke erstellen möchtest, Fossify Paint bietet dir vollständige Kontrolle und respektiert gleichzeitig deine Privatsphäre.<br><br>
+<b>✏️ SCHNELLES UND EINFACHES SKIZZIEREN:</b><br>
+Beginne sofort mit dem Zeichnen – keine komplizierten Einstellungen oder fortgeschrittenen Werkzeuge erforderlich. Wähle einfach eine Pinselgröße und eine Farbe aus, und erwecke deine Ideen auf einer sauberen digitalen Leinwand zum Leben.
+<b>🎨 VOLLSTÄNDIG ANPASSBARER KUNSTRAUM:</b><br>
+Passe jeden Aspekt deiner Zeichenerfahrung an. Ändere den Leinwandhintergrund, passe die Pinselgröße an und stimme die Farben mit Hilfe von Hex-Codes präzise ab.<br><br>
+<b>🖼️ VIELFÄLTIGE DATEIFORMATE:</b><br>
+Fossify Paint unterstützt gängige Formate wie PNG, JPG und SVG. Egal, ob du eine einfache Skizze oder ein detailliertes Kunstwerk speichern möchtest, du kannst deine Kreationen ganz einfach in dem Format exportieren, das deinen Anforderungen entspricht.<br><br>
+<b>🛡️ DATENSCHUTZ UND SICHERHEIT INTEGRIERT:</b><br>
+Wie alle Fossify-Apps funktioniert auch Fossify Paint vollständig offline und ohne störende Berechtigungen. Deine Kunstwerke bleiben sicher auf deinem Gerät gespeichert, sodass du dir keine Sorgen machen musst.<br><br>
+<b>🌐 OPEN-SOURCE-VERPFLICHTUNG:</b><br>
+Fossify Paint ist Open-Source und transparent. Untersuche den Code auf GitHub, trage zum Projekt bei und werden Teil einer Gemeinschaft, die Privatsphäre und Kreativität schätzt.<br><br>
+Fossify Paint richtet sich an Künstler aller Alters- und Fähigkeitsstufen – erschaffe deine Kunst, passe sie an und teilen sie mit anderen, ohne deine Privatsphäre zu gefährden.<br><br>
+Entdecke weitere Apps von Fossify: https://www.fossify.org<br>
+Open-Source-Code: https://www.github.com/FossifyOrg<br>
+Tritt der Community auf Reddit bei: https://www.reddit.com/r/Fossify<br>
+Verbinde dich auf Telegram: https://t.me/Fossify<br>
