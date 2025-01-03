@@ -9,4 +9,5 @@
     <string name="allow_zooming_moving_canvas">Permet fer zoom i moure el llenç amb gestos</string>
     <string name="clear">Neteja</string>
     <string name="change_background_color">Canvia el color del fons</string>
+    <string name="app_launcher_name">Paint</string>
 </resources>

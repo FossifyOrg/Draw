@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="open_file">Отвори файл</string>
+    <string name="open_file">Отваряне на файл</string>
     <string name="eraser">Гумичка</string>
-    <string name="eyedropper">Копиране на цвят</string>
-    <string name="failed_to_load_image">Неуспешно зареждане на изображение %s</string>
-    <string name="show_brush_size">Показване на инструмент за размер на четка</string>
+    <string name="eyedropper">Пипета</string>
+    <string name="failed_to_load_image">Грешка при зареждане на изображение %s</string>
+    <string name="show_brush_size">Показване размера на четката</string>
     <string name="allow_zooming_moving_canvas">Позволяване на мащабиране и преместване на платното с жестове</string>
     <string name="clear">Изчистване</string>
     <string name="change_background_color">Промяна на цвета на фона</string>
+    <string name="app_launcher_name">Рисуване</string>
+    <string name="bucket_fill">Запълване</string>
 </resources>

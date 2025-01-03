@@ -1,0 +1,16 @@
+Paint Fossify è la tua app preferita per schizzi e per l'espressione creativa senza sforzo. Che tu voglia scarabocchiare qualcosa di divertente o creare arte digitale dettagliata, Paint Fossify è progettata per darti il controllo completo nel rispetto della tua privacy.<br><br>
+<b>✏️ SCHIZZI VELOCI E FACILI:</b><br>
+Inizia a disegnare immediatamente, senza bisogno di configurazioni complicate o strumenti avanzati. Scegli semplicemente la dimensione del pennello, il colore e dai vita alle tue idee su una tela digitale pulita.<br><br>
+<b>🎨 SPAZIO ARTISTICO COMPLETAMENTE PERSONALIZZABILE:</b><br>
+Personalizza ogni aspetto della tua esperienza di disegno. Cambia lo sfondo della tela, regola la dimensione del pennello e perfeziona i colori con precisione utilizzando codici esadecimali.<br><br>
+<b>🖼️ FORMATI DI FILE VERSATILI:</b><br>
+Paint Fossify supporta formati popolari come PNG, JPG e SVG. Che tu stia salvando un semplice schizzo o condividendo un'opera d'arte dettagliata, puoi facilmente esportare le tue creazioni nel formato più adatto alle tue esigenze.<br><br>
+<b>🛡️ PRIVACY E SICUREZZA INTEGRATE:</b><br>
+Come tutte le app Fossify, Paint funziona completamente offline senza autorizzazioni intrusive. La tua opera d'arte rimane al sicuro sul tuo dispositivo, garantendoti tranquillità.<br><br>
+<b>🌐 IMPEGNO OPEN-SOURCE:</b><br>
+Paint Fossify è open-source e trasparente. Esplora il codice su GitHub, contribuisci al progetto e fai parte di una community che valorizza la privacy e la creatività.<br><br>
+Paint Fossify si rivolge ad artisti di tutte le età e livelli di abilità: crea, personalizza e condividi la tua arte, il tutto mantenendo intatta la tua privacy.<br><br>
+Esplora altre app Fossify: https://www.fossify.org<br>
+Codice open source: https://www.github.com/FossifyOrg<br>
+Unisciti alla community su Reddit: https://www.reddit.com/r/Fossify<br>
+Connettiti su Telegram: https://t.me/Fossify<br>

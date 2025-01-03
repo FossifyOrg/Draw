@@ -9,4 +9,5 @@
     <string name="allow_zooming_moving_canvas">Povolit přibližování a posun plátna pomocí gest</string>
     <string name="clear">Vymazat</string>
     <string name="change_background_color">Změnit barvu pozadí</string>
+    <string name="app_launcher_name">Malování</string>
 </resources>

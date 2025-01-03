@@ -9,4 +9,5 @@
     <string name="allow_zooming_moving_canvas">Vergrößern und verschieben der Leinwand durch Gesten</string>
     <string name="clear">Löschen</string>
     <string name="change_background_color">Hintergrundfarbe ändern</string>
+    <string name="app_launcher_name">Paint</string>
 </resources>

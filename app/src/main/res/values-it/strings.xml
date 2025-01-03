@@ -9,4 +9,5 @@
     <string name="allow_zooming_moving_canvas">Permetti l\'ingrandimento e lo spostamento con i gesti</string>
     <string name="clear">Pulisci</string>
     <string name="change_background_color">Cambia colore di sfondo</string>
+    <string name="app_launcher_name">Paint</string>
 </resources>
